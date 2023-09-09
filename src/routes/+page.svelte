@@ -12,7 +12,6 @@
             showInfo=true
         }, 1000)
     );
-
 </script>
 
 
