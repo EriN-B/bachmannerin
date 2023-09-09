@@ -1,7 +1,16 @@
+<script>
+    export let viewBoxW;
+    export let viewBoxH;
+    export let translateW;
+    export let translateH;
+    export let scaleW;
+    export let scaleH;
+</script>
+
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 900.000000 500.000000"
+     viewBox="0 0 {viewBoxW} {viewBoxH}"
      preserveAspectRatio="xMidYMid meet">
-    <g transform="translate(0.100000,550.000000) scale(0.200000,-0.200000)"
+    <g transform="translate({translateW},{translateH}) scale({scaleW},{scaleH})"
        class="path"
        fill="black" stroke="black" stroke-width="30">
         <path d="M4044 2648 c-15 -24 -35 -55 -46 -70 -10 -15 -18 -30 -18 -33 0 -8
