@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="779d036f-e27a-409a-a975-4614c2a44d0d" name="Changes" comment="Update links">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="779d036f-e27a-409a-a975-4614c2a44d0d" name="Changes" comment="Update build">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/singletons.30e18d08.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/immutable/entry/app.d283d08c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/immutable/entry/start.7aa110bf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/immutable/nodes/1.73c39dc3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/_app/version.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,22 +31,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Projects/bachmannerin",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "D:\\Projects\\bachmannerin\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/bachmannerin&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Projects\\bachmannerin\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\bachmannerin" />
@@ -56,6 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694270501645</updated>
       <workItem from="1694270503482" duration="845000" />
+      <workItem from="1694330503216" duration="477000" />
     </task>
     <task id="LOCAL-00001" summary="Add Frontend build">
       <created>1694271061033</created>
@@ -64,7 +73,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694271061033</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update favicon.png">
+      <created>1694274882172</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694274882172</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update build">
+      <created>1694274914332</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694274914332</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,6 +95,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Frontend build" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Frontend build" />
+    <MESSAGE value="Update favicon.png" />
+    <MESSAGE value="Update build" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update build" />
   </component>
 </project>
