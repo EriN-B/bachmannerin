@@ -4,9 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="779d036f-e27a-409a-a975-4614c2a44d0d" name="Changes" comment="Update Navbar and add Github">
-      <change afterPath="$PROJECT_DIR$/build/CNAME" afterDir="false" />
+    <list default="true" id="779d036f-e27a-409a-a975-4614c2a44d0d" name="Changes" comment="Add CNAME">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/immutable/assets/0.9ff0f060.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/immutable/assets/_layout.9ff0f060.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/index.f6eb9490.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/scheduler.0f962ddd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/singletons.d5bde977.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/immutable/entry/app.da8698c4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/immutable/entry/start.204af895.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/immutable/nodes/0.c0781362.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/immutable/nodes/1.5865af4f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/immutable/nodes/2.64b1cb63.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/_app/version.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694270501645</updated>
       <workItem from="1694270503482" duration="845000" />
-      <workItem from="1694330503216" duration="3007000" />
+      <workItem from="1694330503216" duration="3310000" />
     </task>
     <task id="LOCAL-00001" summary="Add Frontend build">
       <created>1694271061033</created>
@@ -102,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694334241172</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add CNAME">
+      <created>1694334457618</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694334457618</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +134,8 @@
     <MESSAGE value="Update build" />
     <MESSAGE value="Update Navbar" />
     <MESSAGE value="Update Navbar and add Github" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Navbar and add Github" />
+    <MESSAGE value="Add CNAME" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add CNAME" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
