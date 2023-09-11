@@ -8,7 +8,7 @@ import { fade,fly } from 'svelte/transition';
 </head>
 <div class="navbar bg-base-100 fixed top-0 z-50" transition:fly={{y:-100}}>
     <div class="navbar-start">
-        <a class="btn btn-ghost normal-case text-xl navbar__logo">
+        <a class="btn btn-ghost normal-case text-xl navbar__logo" href="/">
             <Svg viewBoxW="700.000000" viewBoxH="290.000000" translateW="0.000000" translateH="350.000000" scaleW="0.150000" scaleH="-0.1500000"/>
         </a>
     </div>
