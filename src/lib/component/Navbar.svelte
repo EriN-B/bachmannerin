@@ -15,7 +15,7 @@ import { fade,fly } from 'svelte/transition';
     <div class="navbar-center hidden lg:flex">
     </div>
     <div class="navbar-end">
-        <a class="btn" href="mailto:erin.bachmann@gmx.ch">Contact</a>
+        <a class="btn btn-accent mr-5">Login</a>
     </div>
 </div>
 

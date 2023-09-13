@@ -4,39 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="779d036f-e27a-409a-a975-4614c2a44d0d" name="Changes" comment="Update UI">
-      <change afterPath="$PROJECT_DIR$/src/lib/component/Task.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/supabaseClient.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/todo/+page.server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/todo/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="779d036f-e27a-409a-a975-4614c2a44d0d" name="Changes" comment="Add Todo list">
+      <change afterPath="$PROJECT_DIR$/src/supabaseClient.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/.nojekyll" beforeDir="false" afterPath="$PROJECT_DIR$/src/environements/environement.prod.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CNAME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/assets/0.10765d13.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/assets/2.369af5b6.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/assets/_layout.10765d13.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/assets/_page.369af5b6.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/index.043f09e4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/scheduler.e108d1fd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/singletons.1fe577a9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/entry/app.6d84d11e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/entry/start.4602c63b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/nodes/0.fb3ffd6d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/nodes/1.28f58917.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/nodes/2.cfca8f51.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/version.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/erin_bachmann.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/socials/github.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/socials/instagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/socials/linkedin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/component/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/component/Navbar.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/component/Task.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/component/Task.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/supabaseClient.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/todo/+page.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/todo/+page.svelte" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,28 +40,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/bachmannerin/static&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\Projects\\bachmannerin\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "kanban__",
+    "last_opened_file_path": "D:/Projects/bachmannerin/static",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\Projects\\bachmannerin\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\bachmannerin\static" />
       <recent name="D:\Projects\bachmannerin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\bachmannerin\src\routes" />
+      <recent name="D:\Projects\bachmannerin\src" />
       <recent name="D:\Projects\bachmannerin\static\socials" />
       <recent name="D:\Projects\bachmannerin" />
     </key>
@@ -101,6 +79,7 @@
       <workItem from="1694270503482" duration="845000" />
       <workItem from="1694330503216" duration="5290000" />
       <workItem from="1694450714755" duration="8295000" />
+      <workItem from="1694582061699" duration="420000" />
     </task>
     <task id="LOCAL-00001" summary="Add Frontend build">
       <created>1694271061033</created>

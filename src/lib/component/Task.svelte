@@ -1,6 +1,6 @@
 <script>
 import {invalidateAll} from "$app/navigation";
-import {supabase} from "$lib/supabaseClient.ts";
+import {supabase} from "../../supabaseClient.ts";
 import {fade} from "svelte/transition";
 export let task;
 
